@@ -1,0 +1,72 @@
+# Created at 2025-03-16T13:44:33.642
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+# Created at 2025-03-16T13:44:35.756
+Unexpected IOException with stream: 14876
+
+# Created at 2025-03-16T13:44:35.758
+Unexpected IOException with stream: 
+
+
+# Created at 2025-03-16T13:44:35.771
+Unexpected IOException: 6,1,com.yupi.yupao.service.InsertUsersTest,doConcurrencyInsertUsers,null,null,null
+
+
+# Created at 2025-03-16T13:44:35.774
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.yupi.yupao.service.InsertUsersTest,null,null,null
+
+
+# Created at 2025-03-16T13:44:35.778
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.yupi.yupao.service.RedissonTest,null,null,null
+
+
+# Created at 2025-03-16T13:44:35.785
+Unexpected IOException with stream: 2025-03-16 13:44:35.782  INFO 27796 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.yupi.yupao.service.RedissonTest], using SpringBootContextLoader
+
+
+# Created at 2025-03-16T13:44:35.790
+Unexpected IOException with stream: 2025-03-16 13:44:35.789  INFO 27796 --- [           main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.yupi.yupao.service.RedissonTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+
+
+# Created at 2025-03-16T13:44:35.792
+Unexpected IOException with stream: 2025-03-16 13:44:35.791  INFO 27796 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.yupi.yupao.service.RedissonTest]: RedissonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+
+
+# Created at 2025-03-16T13:44:35.799
+Unexpected IOException with stream: 2025-03-16 13:44:35.797  INFO 27796 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.yupi.yupao.MyApplication for test class com.yupi.yupao.service.RedissonTest
+
+
+# Created at 2025-03-16T13:44:35.807
+Unexpected IOException with stream: 2025-03-16 13:44:35.805  INFO 27796 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+
+
+# Created at 2025-03-16T13:44:35.817
+Unexpected IOException with stream: 2025-03-16 13:44:35.808  INFO 27796 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@5a86112a, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3203ffa3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@49231d79, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@25f67aea, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@4f93303f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@62c02089, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3359217d, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@25ee3cd6, org.springframework.test.context.event.EventPublishingTestExecutionListener@732ae29c, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@100d5018, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6a25c9ad, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3e7940b3, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1ae37be2, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@60147536, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2438a038]
+
+
+# Created at 2025-03-16T13:44:35.826
+Unexpected IOException: 5,1,com.yupi.yupao.service.RedissonTest,test,null,null,null
+
+
+# Created at 2025-03-16T13:44:35.896
+Unexpected IOException with stream: list:yupi
+
+
+# Created at 2025-03-16T13:44:35.961
+Unexpected IOException with stream: rlist:yupi
+
+
+# Created at 2025-03-16T13:44:35.991
+Unexpected IOException: 6,1,com.yupi.yupao.service.RedissonTest,test,null,null,null
+
+
+# Created at 2025-03-16T13:44:35.995
+Unexpected IOException: 5,1,com.yupi.yupao.service.RedissonTest,testWatchDog,null,null,null
+
+
