@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.yupi.yupao.service.UserServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 11.049 s <<< FAILURE! - in com.yupi.yupao.service.UserServiceTest
+userRegister  Time elapsed: 0.306 s  <<< ERROR!
+com.yupi.yupao.exception.BusinessException: 请求参数错误
+	at com.yupi.yupao.service.UserServiceTest.userRegister(UserServiceTest.java:73)
+
+testSearchUsersByTags  Time elapsed: 9.248 s  <<< ERROR!
+com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 17 path $[1]
+	at com.yupi.yupao.service.UserServiceTest.testSearchUsersByTags(UserServiceTest.java:101)
+Caused by: com.google.gson.stream.MalformedJsonException: Unterminated string at line 1 column 17 path $[1]
+	at com.yupi.yupao.service.UserServiceTest.testSearchUsersByTags(UserServiceTest.java:101)
+
